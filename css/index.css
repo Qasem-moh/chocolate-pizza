@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@1&family=Parisienne&display=swap");
+* {
+  box-sizing: border-box;
+  justify-content: center;
+  justify-self: center;
+  background-origin: padding-box;
+}
+
+body {
+  margin: 100px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li:nth-child(2) {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 0px;
+  font-family: "IM Fell French Canon", serif;
+  font-family: "Parisienne", cursive;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: -12px;
+}
+/* li:nth-child(1) {
+    margin-top: 1px;
+    position: fixed;
+  } */
+
+li:last-child {
+  margin-left: 73%;
+  margin-top: 21px;
+  position: absolute;
+}
+li:nth-child(10) {
+  margin-left: 71.5%;
+  margin-top: 21px;
+  position: absolute;
+}
+li:nth-child(9) {
+  margin-left: 69.5%;
+  margin-top: 21px;
+  position: absolute;
+}
+li:nth-child(8) {
+  margin-left: 68%;
+  margin-top: 21px;
+  position: absolute;
+}
+li:nth-child(7) {
+  margin-left: 66.5%;
+  margin-top: 21px;
+  position: absolute;
+}
+li:nth-child(6) {
+  margin-left: 65%;
+  margin-top: 21px;
+  position: absolute;
+}
+li:nth-child(5) {
+  margin-left: 63.5%;
+  margin-top: 21px;
+  position: absolute;
+}
+li:nth-child(4) {
+  margin-left: 62%;
+  margin-top: 21px;
+  position: absolute;
+}
+
+li:nth-child(3) {
+  margin-left: 10px;
+  margin-top: 29px;
+  position: absolute;
+}
+
+header hr {
+  margin-top: 50px;
+  margin-left: 0px;
+  height: 20px;
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(195, 185, 185),
+    transparent 3px
+  );
+  width: 90%;
+}
+#titleF {
+  font-size: 55px;
+  font-weight: bold;
+}
+#dat {
+  font-size: 18px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 12px;
+}
+
+main section img {
+  font-size: 18px;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 74%;
+  width: 28px;
+}
+#print {
+  font-size: 18px;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 76%;
+}
+main section div img {
+  margin-left: 0px;
+  margin-top: 10px;
+  width: 76%;
+  height: 85%;
+  margin-bottom: 20px;
+}
+
+main section article {
+  margin-top: 58%;
+  width: 86%;
+  font-size: 20px;
+  font-size: 25px;
+  text-indent: 50px;
+}
+/* header, nav, li, a, img{
+position: static;
+}  */
+input[type="checkbox"]:checked + label.f1 {
+  text-decoration: line-through;
+}
+.backRow {
+  background-image: url(../img/list-bg.png);
+  background-repeat: no-repeat;
+  margin: 15px 15px 15px 19%;
+  width: 64.33%;
+  height: 77%;
+  position: absolute;
+}
+#fomOne {
+  margin-top: 19px;
+  margin-left: 62px;
+}
+#fomOne input {
+  margin-bottom: 15px;
+}
+#formTwo {
+  margin-left: 50%;
+  margin-top: -188px;
+}
+#formTwo input {
+  margin-bottom: 15px;
+}
+main hr {
+    margin-top: 350px;
+    margin-left: 0px;
+    height: 20px;
+    background: repeating-linear-gradient(
+      45deg,
+      rgb(195, 185, 185),
+      transparent 3px
+    );
+    width: 90%;
+  }
