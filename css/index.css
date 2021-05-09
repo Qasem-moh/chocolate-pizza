@@ -141,7 +141,7 @@ input[type="checkbox"]:checked + label.f1 {
   position: absolute;
 }
 #fomOne {
-  margin-top: 19px;
+  margin-top: 40px;
   margin-left: 62px;
 }
 #fomOne input {
@@ -155,13 +155,58 @@ input[type="checkbox"]:checked + label.f1 {
   margin-bottom: 15px;
 }
 main hr {
-    margin-top: 350px;
-    margin-left: 0px;
-    height: 20px;
-    background: repeating-linear-gradient(
-      45deg,
-      rgb(195, 185, 185),
-      transparent 3px
-    );
-    width: 90%;
-  }
+  margin-top: 450px;
+  margin-left: 0px;
+  height: 20px;
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(195, 185, 185),
+    transparent 3px
+  );
+  width: 90%;
+}
+.backRow #formTwo input:nth-child(2) {
+  color: green;
+}
+
+footer section {
+  margin-top: 30px;
+}
+footer section img {
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+}
+footer section h2 {
+  margin-left: 9%;
+  margin-top: -94px;
+}
+
+footer section p {
+  margin-left: 155px;
+  font-size: 26px;
+  width: 49%;
+}
+footer section BUTTON {
+  margin-left: 69%;
+  margin-top: -86px;
+  position: absolute;
+  height: 61px;
+  font-size: 20px;
+  background-color: #961e1e;
+}
+footer section hr{
+    margin-top: 197px;
+}
+
+
+footer section img:last-child{
+    margin-left: 45%;
+    margin-top: -53px;
+
+
+}
+
+
+
+
