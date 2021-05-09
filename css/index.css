@@ -195,18 +195,22 @@ footer section BUTTON {
   font-size: 20px;
   background-color: #961e1e;
 }
-footer section hr{
-    margin-top: 197px;
+footer section hr {
+  margin-top: 197px;
 }
 
-
-footer section img:last-child{
-    margin-left: 45%;
+.imgF {
+    width: 100px;
+    height: 100px;
+    margin-left: 46%;
     margin-top: -53px;
-
+    margin-bottom: 40px;
+    box-shadow: -8px 0px 0px 70px white;
 
 }
 
-
-
-
+footer section p:last-child {
+    position: absolute;
+    margin-left: 35%;
+    width: 24%;
+}
